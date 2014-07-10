@@ -1,0 +1,7 @@
+parameters:
+#    sf_ven_regiones.example.class: SfVen\Bundle\RegionesBundle\Example
+
+services:
+#    sf_ven_regiones.example:
+#        class: %sf_ven_regiones.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

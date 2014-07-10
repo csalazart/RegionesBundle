@@ -1,0 +1,3 @@
+sf_ven_regiones_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SfVenRegionesBundle:Default:index }
