@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Estado
  *
  * @ORM\Table(name="estado")
- * @ORM\Entity(repositoryClass="EstadoRepository")
+ * @ORM\Entity
  */
 class Estado
 {
@@ -26,7 +26,40 @@ class Estado
      *
      * @ORM\Column(name="nombre", type="string", length=60, nullable=false)
      */
-    private $nombre = 'Estado';
+    private $nombre;
 
 
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nombre
+     *
+     * @param string $nombre
+     * @return Estado
+     */
+    public function setNombre($nombre)
+    {
+        $this->nombre = $nombre;
+
+        return $this;
+    }
+
+    /**
+     * Get nombre
+     *
+     * @return string 
+     */
+    public function getNombre()
+    {
+        return $this->nombre;
+    }
 }
