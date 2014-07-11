@@ -45,7 +45,10 @@ no salten a la hora de Cargar los Datos.
 
 ------------------------------------------------
 ###Contacto
- Web: http://www.Tuhostingweb.net
- Email: csalazart33@gmail.com
- Twitter: @ElRuzo
+
+Web: http://www.Tuhostingweb.net
+
+Email: csalazart33@gmail.com
+
+Twitter: @ElRuzo
 
