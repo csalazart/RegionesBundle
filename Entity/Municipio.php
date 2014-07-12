@@ -122,4 +122,9 @@ class Municipio
     {
         return $this->estado;
     }
+    
+    public function __toString()
+    {
+        return $this->getNombre();
+    }
 }
