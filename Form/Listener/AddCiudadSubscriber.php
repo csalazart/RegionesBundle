@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the Manuel Aguirre Project.
- *
- * (c) Manuel Aguirre <programador.manuel@gmail.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SfVen\Bundle\RegionesBundle\Form\Listener;
 
 use Doctrine\ORM\EntityRepository;
@@ -19,8 +10,6 @@ use Symfony\Component\Form\FormEvents;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
- * Description of AddCiudadListener
- *
  * @author Manuel Aguirre <programador.manuel@gmail.com>
  */
 class AddCiudadSubscriber implements EventSubscriberInterface
