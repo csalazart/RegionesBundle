@@ -24,10 +24,7 @@ ya que las Entidades Federales, Corresponden a los Estados , mientras que  vario
 
 ###Las notas de Carga:
 ----------------------
-  para Instalar y Generar las Entidades Correctamente Puedes copiar las entidades en tu Bundle o generarlas
-y usarlas desde el bundle Creado. Recuerda Realizar la Tarea entities para generar los metodos correspondientes
 
-     php app/console doctrine:generate:entities SchemaVenEntityBundle
  
 
 ###Los Archivos:
@@ -39,16 +36,12 @@ y usarlas desde el bundle Creado. Recuerda Realizar la Tarea entities para gener
  * C.parroquias.csv : Arcivo de Datos de Parroquias en CSV Texto
  * D.ciudades.csv : Archivo de Datos de ciudades en CSV Texto
 
- Este es el Orden de los archivos y la carga de los Datos para que las Relaciones y restricciones de Cláves
-no salten a la hora de Cargar los Datos.
-   Suerte y muchos Exitos.. Espero les Sirvan y Ayuden.
+Este es el Orden de los archivos y la carga de los Datos para que las Relaciones y restricciones de Cláves no salten a la hora de Cargar los Datos. Suerte y muchos Exitos.. 
+Espero les Sirvan y Ayuden.
 
 ------------------------------------------------
 ###Contacto
 
 Web: http://www.Tuhostingweb.net
-
 Email: csalazart33@gmail.com
-
 Twitter: @ElRuzo
-
