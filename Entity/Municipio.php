@@ -28,12 +28,6 @@ class Municipio
      */
     private $nombre;
 
-    /**
-     * @var integer
-     *
-     * @ORM\Column(name="idciudad", type="integer", nullable=true)
-     */
-    private $idciudad;
 
     /**
      * @var \SysEstado
