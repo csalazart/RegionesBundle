@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Municipio
  *
  * @ORM\Table(name="municipio" )
- * @ORM\Entity(repositoryClass="MunicipioRepository")
+ * @ORM\Entity
  */
 class Municipio
 {
@@ -29,19 +29,96 @@ class Municipio
     private $nombre;
 
     /**
-     * @var integer
-     *
-     * @ORM\Column(name="idciudad", type="integer", nullable=true)
-     */
-    private $idciudad = '0';
-
-    /**
-     * @var \SysEstado
+     * @var \Estado
      *
      * @ORM\ManyToOne(targetEntity="Estado")
-     * @ORM\JoinColumn(name="idestado", referencedColumnName="id")
+     * @ORM\JoinColumn(name="estado_id", referencedColumnName="id")
      */
     private $estado;
 
 
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nombre
+     *
+     * @param string $nombre
+     * @return Municipio
+     */
+    public function setNombre($nombre)
+    {
+        $this->nombre = $nombre;
+
+        return $this;
+    }
+
+    /**
+     * Get nombre
+     *
+     * @return string 
+     */
+    public function getNombre()
+    {
+        return $this->nombre;
+    }
+
+    /**
+     * Set idciudad
+     *
+     * @param integer $idciudad
+     * @return Municipio
+     */
+    public function setIdciudad($idciudad)
+    {
+        $this->idciudad = $idciudad;
+
+        return $this;
+    }
+
+    /**
+     * Get idciudad
+     *
+     * @return integer 
+     */
+    public function getIdciudad()
+    {
+        return $this->idciudad;
+    }
+
+    /**
+     * Set estado
+     *
+     * @param \SfVen\Bundle\RegionesBundle\Entity\Estado $estado
+     * @return Municipio
+     */
+    public function setEstado(\SfVen\Bundle\RegionesBundle\Entity\Estado $estado = null)
+    {
+        $this->estado = $estado;
+
+        return $this;
+    }
+
+    /**
+     * Get estado
+     *
+     * @return \SfVen\Bundle\RegionesBundle\Entity\Estado 
+     */
+    public function getEstado()
+    {
+        return $this->estado;
+    }
+    
+    public function __toString()
+    {
+        return $this->getNombre();
+    }
 }
