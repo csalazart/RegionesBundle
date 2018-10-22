@@ -26,7 +26,6 @@ ya que las Entidades Federales, Corresponden a los Estados , mientras que  vario
 ----------------------
 
  
-
 ###Los Archivos:
  
    Los archivos se encuentran en  src/SchemaVen/EntityBundle/Resources/CargaFixtures
@@ -39,9 +38,15 @@ ya que las Entidades Federales, Corresponden a los Estados , mientras que  vario
 Este es el Orden de los archivos y la carga de los Datos para que las Relaciones y restricciones de Cláves no salten a la hora de Cargar los Datos. Suerte y muchos Exitos.. 
 Espero les Sirvan y Ayuden.
 
+**Referencia Datos**: https://github.com/csalazart/Venezuela-Schema
+
+**Proyecto Relacionado**:  https://github.com/csalazart/SF2ShortsCommands/blob/master/README.md
+
 ------------------------------------------------
 ###Contacto
 
 Web: http://www.Tuhostingweb.net
+
 Email: csalazart33@gmail.com
+
 Twitter: @ElRuzo
